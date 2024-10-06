@@ -322,7 +322,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != ""https://telegra.ph/Alem-Music-06-01":
+    if GLOBAL_IMG_URL != "https://telegra.ph/Alem-Music-06-01":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
