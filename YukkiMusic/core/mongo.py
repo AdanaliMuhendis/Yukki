@@ -18,7 +18,7 @@ from ..logging import LOGGER
 
 TEMP_MONGODB = "mongodb+srv://TeamVivek:teambackup@teamvivekbackup.7acwn.mongodb.net/?retryWrites=true&w=majority&appName=TeamVivekBackup"
 
-DB_NAME = "Yukki"
+DB_NAME = "Anon"
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
